@@ -252,5 +252,9 @@
 # future_value = amt*((1+(0.01*int)) ** years)
 # print(round(future_value,2))
 
-#
+# Write a Python program to parse a string to Float or Integer.
+# n = "348.3458"
+# print(float(n))
+# print(int(float(n)))
+
 

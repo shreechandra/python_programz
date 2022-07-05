@@ -270,3 +270,74 @@
 # h_inch += h_ft * 12
 # h_cm = round(h_inch * 2.54, 1)
 # print("Your height is : %d cm." % h_cm)
+
+# Write a Python program to sort three integers without using conditional statements and loops
+# x = int(input("Input first number: "))
+# y = int(input("Input second number: "))
+# z = int(input("Input third number: "))
+
+# a1 = min(x, y, z)
+# a3 = max(x, y, z)
+# a2 = (x + y + z) - a1 - a3
+# print("Numbers in sorted order: ", a1, a2, a3)
+
+# Write a Python program to calculate the sum of all items of a container
+# s = sum([60,70,80])
+# print("Sum of the container: ", s)
+# print()
+
+# Python Program to Check if a Number is Positive, Negative or Zero
+# n = float(input("Enter a number: "))
+# if n >= 0:
+#   if n == 0:
+#        print("Zero")
+#    else:
+#        print("Positive number")
+# else:
+#    print("Negative number")
+
+# Write a Python program to get the users environment
+# import os
+# print(os.environ)
+# print()
+
+# Write a Python program to sum of all counts in a collections.
+# import collections
+# num = [2,2,4,6,6,8,6,10,4]
+# print(sum(collections.Counter(num).values()))
+
+# Write a Python program to perform an action if a condition is true
+# Given a variable name, if the value is 1, display the string "First day of a Month!" and do nothing if the value is not equal.
+# n=1
+# if n == 1:
+#    print("First day of a Month!")
+# print()
+
+# Write a Python program to swap two variables.
+"""x = 50 
+y = 70
+temp = x
+x = y
+y = temp
+print("Value of x:", x)
+print("Value of y:", y)"""
+
+# Write a Python program to clear the screen or terminal.
+"""import os
+os.system('clear')"""
+
+# Write a Python program to extract single key-value pair of a dictionary in variables.
+""" thisdict = {
+ "brand": "tata",
+  "model": "nexon",
+  "year": 1999
+}
+x = thisdict.values()
+print(x) """
+
+# Write a Python program to get the Identity, Type, and Value of an object.
+"""x = 23
+print("Identity: ",x)
+print("Type: ",type(x))
+print("value: ",id(x))"""
+

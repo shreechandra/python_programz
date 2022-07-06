@@ -496,3 +496,21 @@ print(os.path.expanduser('~'))"""
  return total
 print("Sum of cubes: ",sum_of_cubes(3))"""
 
+#128. Write a Python program to check whether lowercase letters exist in a string
+"""str1 = input("enter the user data: ")
+print(any(c.islower() for c in str1))"""
+
+
+#134  Write a Python program to input two integers in a single line
+"""print("Input the value of x & y & z")
+x, y, z = map(int, input().split())
+print("The value of x & y &z are: ",x,y,z)"""
+
+#135 Write a Python program to print a variable without spaces between values. 
+"""x = int(input("enter number: "))
+print('Value of x is',(x))"""
+
+
+
+
+
